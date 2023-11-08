@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pintrest</title>
+  <link rel="stylesheet" href="./main.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="flex bg-white">
+    <img class="w-[160px] h-[95px] ml-16" src="/img/Pinterest-Logo.png" alt="" />
+    <ul class="flex gap-8 ml-[850px] mt-9 font-medium">
+      <li>About</li>
+      <li>Business</li>
+      <li>Blog</li>
+    </ul>
+    <button class="ml-10 border-2-red h-9 w-16 mt-8 bg-[#e00d0d] rounded-2xl">
+      Log in
+    </button>
+    <button class="ml-8 border-2-grey h-8 w-[73px] mt-8 bg-slate-200 rounded-2xl">
+      sign up
+    </button>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <div class="m">
+    <div class="relative">
+      <h1 class="flex justify-center text-6xl">nextGet your</h1>
+      <br />
+      <span id="words" class="text-6xl flex justify-center text-orange-400">DiY Idea</span>
+      <script type="text/javascript">
+        (function () {
+          var words = [
+            "DIY idea",
+            "chai time snacks idea",
+            "Home decor idea",
+            "outfit idea",
+          ],
+            i = 0;
+          setInterval(function () {
+            $("#words").fadeOut(function () {
+              $(this)
+                .html(words[(i = (i + 1) % words.length)])
+                .fadeIn();
+            });
+          }, 3000);
+        })();
+      </script>
+      <div class="flex overflow-hidden relative">
+        <a href="">
+          <div class="absolute ml-[735px] rounded-full bg-emerald-500 w-14 mt-[220px]" id="arrow">
+
+            <img src="/img/down-arrow.gif">
+
+          </div>
+        </a>
+
+
+        <img src="/img/asset 70.jpeg" class="rounded-2xl h-80 w-48 ml-[-50px]" />
+        <img src="/img/asset 59.jpeg" class="rounded-2xl h-80 w-60 mt-80 ml-[-210px]" />
+        <img src="/img/asset 75.jpeg" class="rounded-2xl h-80 w-60 mt-36 ml-6" />
+        <img src="/img/asset 80.jpeg" class="rounded-2xl h-80 w-60 mt-56 ml-6" />
+        <img src="/img/asset 85.jpeg" class="rounded-2xl h-80 w-60 mt-80 ml-6" />
+        <img src="/img/asset 90.jpeg" class="rounded-2xl h-80 w-56 mt-56 ml-6" />
+        <img src="/img/asset 95.jpeg" class="rounded-2xl h-80 w-60 mt-36 ml-6" />
+        <img src="/img/asset 101.jpeg" class="rounded-2xl h-80 w-60 ml-6 mt-[320px]" />
+        <img src="/img/asset 100.jpeg" class="rounded-2xl h-80 w-48 -ml-[212px]" />
+
+
+      </div>
+
+      <div class="bg-[#fffd92] absolute h-[100%] w-[100%] -mt-[260px]" id="sec">
+
+        <p class="mt-3 ml-[695px]">Here how it works 👇 </p>
+
+
+        <div class="w-40 flex absolute mt-10">
+          <img src="img/asset 140.png" alt="" class="mt-44 ml-40 h-64 w-80">
+          <img src="img/asset 141.png" alt="" class="mt-96 h-64 ml-32">
+          <img src="img/asset 139.png" alt="" class=" mt-16 h-52 -ml-40">
+        </div>
+        <img src="img/asset 142.png" alt="" class=" w-78 h-[450px] ml-64 mt-32 absolute">
+
+        <div class=" -mt-[70px]">
+
+          <h2 class="mt-72 ml-[900px] text-6xl text-[#e00d0d] font-extrabold">
+            Search for an idia
+          </h2>
+          <h5 class="mt-3 ml-[940px] text-2xl text-[#e00d0d]">
+            What do you want to try next? Think <br />
+            of something you’re into—like “easy <br />
+            chicken dinner”—and see what you <br />
+          </h5>
+        </div>
+        <h6 class="ml-[1100px] text-2xl text-[#e00d0d]">find.</h6>
+        <br>
+        <button class="rounded-3xl bg-[#e00d0d] h-10 w-24 ml-[1080px]">
+          Explore
+        </button>
+
+      </div>
+
+      <div class="bg-[#ccf6ee] absolute h-[100%] w-[100%] mt-[524px] overflow-hidden">
+
+        <h2 class="mt-80 ml-[130px] text-6xl text-[#006b6c] font-extrabold">
+          Save ideas you like
+        </h2>
+        <h5 class="mt-3 ml-[200px] text-2xl text-[#006b6c]">
+          collect your favorites so you can <br>
+          <h4 class="ml-60 text-2xl text-[#006b6c]"> get back to them later</h4>
+        </h5>
+        <br>
+        <button class="rounded-3xl bg-[#006b6c] h-10 w-24 ml-[330px]">
+          Explore
+        </button>
+        <div class="flex relative">
+
+          <img src="/img/asset 143.png" class="h-[420px] w-[400px] -mt-[420px] ml-[800px]">
+          <img src="/img/asset 147.png" class="h-52 w-42 ml-[50px] -mt-[400px]">
+          <img src="/img/asset 148.png" class="h-44  w-40 -ml-[200px] -mt-[150px]">
+          <img src="/img/asset 150.png" class="h-56 w-48 mt-[40px] -ml-[420px] ">
+          <img src="/img/asset 149.png" class="h-72 w-52 mt-[60px] ml-[40px]">
+
+        </div>
+
+      </div>
+
+      <div class="bg-[#ffdfe9] absolute h-[100%] w-[100%] mt-[1309px] overflow-hidden">
+        <div class="">
+          <img src="/img/asset 151.png" class="h-[100%] w-[55%] ">
+          <img src="/img/asset 152.png" class="h-[400px] -mt-[550px] rounded-3xl ml-20 w-60 ">
+          <img src="/img/asset 153.png" class="h-28 ml-9 -mt-16 ">
+        </div>
+
+        <h1 class=" ml-[1000px] -mt-[460px] text-6xl text-[#e00d0d] font-extrabold">
+          See it, make it, <br>
+          <h2 class="ml-[1045px] text-6xl text-[#e00d0d] font-extrabold">try it, do it</h2>
+        </h1>
+
+        <br>
+        <h5 class="ml-[975px] text-2xl text-[#e00d0d]">The best part of pinterest is discovering</h5>
+        <h6 class="ml-[1008px] text-2xl text-[#e00d0d]"> new things amd ideas from people</h6>
+        <h3 class="ml-[1090px] text-2xl text-[#e00d0d]">around the world</h3>
+        <br>
+        <button class="rounded-3xl bg-[#e00d0d] h-10 w-24 ml-[1140px]">
+          Explore
+        </button>
+      </div>
+
+      <div class="bg-[#ffffff] h-[100%] w-[100%] mt-[2093px] overflow-hidden flex absolute flex-wrap ">
+
+        <img src="/img/asset 0.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-5 blur-sm">
+        <img src="/img/asset 7.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 -mt-44 blur-sm ">
+        <img src="/img/asset 10.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 -mt-[180px] blur-sm">
+        <img src="/img/asset 12.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-5 blur-sm ">
+        <img src="/img/asset 17.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-7  ml-[405px] blur-sm">
+        <img src="/img/asset 16.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-5  blur-sm">
+        <img src="/img/asset 1.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 -mt-[180px] blur-sm">
+        <img src="/img/asset 5.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-[200px] -ml-[211px] blur-sm">
+        <img src="/img/asset 6.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-[200px] blur-sm">
+        <img src="/img/asset 11.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 -mt-[180px] -ml-[220px] blur-sm">
+        <img src="/img/asset 30.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-3  blur-sm">
+        <img src="/img/asset 31.jpeg" class="  h-[360px] w-52 rounded-2xl m-2 mt-3 ml-[405px]  blur-sm">
+
+        <div class="bg-white rounded-2xl w-[390px] h-[730px] ml-[900px] absolute mt-6 " id="bt4">
+          <h1 class=" text-3xl font-extrabold mt-10 ml-12">Welcome to pinterest</h1>
+
+          <h5 class="text-lg ml-[95px] pt-2 text-gray-700">Find New ideas to try</h5>
+          <br>
+          <form action="">
+            <div class="form-group ml-[65px] mt-2">
+              <label for="email">Email: </label>
+              <br>
+              <input class=" p-3 pl-2 pr-[76px]  bg-white rounded-2xl" type="email" name="email" id="bt1"
+                placeholder="Email">
+            </div>
+        
+            <div class="form-group ml-[65px] pt-2 mt-2">
+              <label for="Password">Password:</label>
+              <br>
+            
+              <input class=" p-3 pl-2 pr-[76px] bg-white rounded-2xl" type="password" name="password" id="bt2"
+                placeholder="Enter your password">
+            </div>
+            <div class="form-group ml-[65px] pt-2 mt-2">
+              <label for="date"> Enter Birthdate:</label>
+              <br>
+              <input class=" pl-2 pr-[120px] p-3 bg-white rounded-2xl" type="date" name="date" id="bt3"
+                placeholder="Enter Birthdate">
+            </div>
+
+            <button class="bg-[#e00d0d] rounded-3xl ml-16 mt-3 p-[7px] pl-[105px] pr-[105px] text-[16px] font-medium text-white">
+              Continue
+            </button>
+
+            <h3 class="ml-48 pt-2 font-medium">OR</h3>
+
+            <button class="bg-[#1785eb] rounded-3xl ml-[65px] mt-3 p-[7px] pl-[52px] pr-[52px] text-[16px] font-medium text-white">
+              Continue with facebook
+            </button>
+
+            <button class=" rounded-3xl ml-[70px] mt-3 p-[7px] pl-[60px] pr-[55px] text-[16px] font-medium text-gray-600 pt-1" id="bt2" >
+              Continue with google
+            </button>
+
+          </form>
+          
+      <p class="ml-[120px] font-medium text-[11px] mt-5 text-slate-500">By Continuing you agree to printerest</p>
+      <p class="ml-[90px] font-medium text-[11px] text-slate-500"> <strong class="text-slate-950">Terms of service</strong> and acknowledge you've read our</p>
+      <p class="ml-[120px] font-medium text-[11px] text-slate-500"> <strong class="text-slate-950"> privacy policy notice at collection</strong></p>
+       <br>
+
+       <p class="ml-[120px] font-medium text-[14px]  text-slate-500">Already a member? <strong class="text-slate-950"> Log in</strong></p>
+      
+
+
+        </div>
+
+      </div>
+
+
+
+</body>
+
+</html>

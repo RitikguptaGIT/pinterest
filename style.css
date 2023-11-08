@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#sec {
+  box-shadow: -0px -10px 200px white;
+}
+
+#arrow {
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+  10% {
+    height: 60px;
+    width: 60px;
+  }
+
+  30% {
+    height: 60px;
+    width: 60px;
+  }
+
+  50% {
+    height: 60px;
+    width: 60px;
+    transform: translateY(40px);
+  }
+
+  75% {
+    height: 60px;
+    width: 60px;
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#bt1{
+  box-shadow: -0px -0px 2px rgb(0, 0, 0);
+}
+#bt2{
+  box-shadow: -0px -0px 2px rgb(0, 0, 0);
+}
+#bt3{
+  box-shadow: -0px -0px 2px rgb(0, 0, 0);
+}
+#bt4{
+  box-shadow: -0px -0px 2px rgb(0, 0, 0);
+}
